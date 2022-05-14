@@ -1,0 +1,35 @@
+/* Add your custom extension styling here */
+.my-class {
+    font-weight: normal;
+}
+.kayak-white {
+    background-image: url("icons/kayak.png");
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+.kayak-yellow {
+    background-image: url("icons/kayak-yellow.png");
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+.kayak-orange {
+    background-image: url("icons/kayak-orange.png");
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+.kayak-red {
+    background-image: url("icons/kayak-red.png");
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+.kayak-green {
+    background-image: url("icons/kayak-green.png");
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+
