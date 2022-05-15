@@ -19,16 +19,28 @@
 /* exported init */
 
 const GETTEXT_DOMAIN = 'usgs-water-level';
-
 const { Clutter, GObject, St } = imports.gi;
-
 const ExtensionUtils = imports.misc.extensionUtils;
 const Gio = imports.gi.Gio;
 const Main = imports.ui.main;
 const PanelMenu = imports.ui.panelMenu;
 const PopupMenu = imports.ui.popupMenu;
-
 const _ = ExtensionUtils.gettext;
+
+// variables to store persistent data
+var siteName = "Unknown",
+    siteLocation = "Unknown",
+    mHeight = 0,
+    mHeightUnit = "Unknown",
+    mHeightDate = "Unknown",
+    mFlow = 0,
+    mFlowUnit = "Unknown",
+    mFlowDate = "Unknown",
+    measurement = "Unknown",
+    updateDate = "Not checked",
+    numChecks = 0,
+    checkDate = "Not checked",
+    minutesBetweenChecks = 60;
 
 const Indicator = GObject.registerClass(
 class Indicator extends PanelMenu.Button {
