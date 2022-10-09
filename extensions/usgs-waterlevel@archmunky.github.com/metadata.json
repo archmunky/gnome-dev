@@ -1,9 +1,0 @@
-{
-  "name": "USGS Water Levels",
-  "description": "Show current water levels via USGS feed",
-  "uuid": "usgs-waterlevel@archmunky.github.com",
-  "shell-version": [
-    "41",
-    "42"
-  ]
-}

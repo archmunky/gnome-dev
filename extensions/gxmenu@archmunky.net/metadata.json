@@ -1,8 +1,0 @@
-{
-  "name": "Gx Menu",
-  "description": "Gnome clone of OSX menu for top panel",
-  "uuid": "gxmenu@archmunky.net",
-  "shell-version": [
-    "42"
-  ]
-}
