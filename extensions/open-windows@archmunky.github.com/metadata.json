@@ -1,0 +1,13 @@
+{
+  "description": "List open windows of all workspaces",
+  "name": "Open Windows",
+  "shell-version": [
+    "40",
+    "41",
+    "42",
+    "43"
+  ],
+  "url": "https://github.com/archmunky/open-windows",
+  "uuid": "open-windows@archmunky.github.com",
+  "version": 1
+}

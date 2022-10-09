@@ -1,0 +1,9 @@
+.gmac-button {
+	width: 24px;
+	height: 24px;
+
+	margin: 1px 0 0 0;
+	
+	background: url('Resources/gnome.png');
+	background-size: 24px;
+}

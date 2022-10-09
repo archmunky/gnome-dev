@@ -1,0 +1,10 @@
+{
+  "name": "Gnome Mac Menu",
+  "description": "Gnome version of Mac menu",
+  "uuid": "gnome-mac-menu@archmunky.github.com",
+  "shell-version": [
+    "42",
+    "43"
+  ],
+  "version": 1
+}
